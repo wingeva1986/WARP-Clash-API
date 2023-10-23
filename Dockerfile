@@ -2,9 +2,7 @@ FROM --platform=linux/amd64 python:3.11-alpine
 
 WORKDIR /app
 COPY . .
-COPY ./config ../config
-COPY ./account ../account
-COPY ./logs ../logs
+
 
 
 # Install bash
